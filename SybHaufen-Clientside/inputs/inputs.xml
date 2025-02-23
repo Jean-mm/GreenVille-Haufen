@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+	<!-- declarations -->
+	<inputs>
+		<actions>
+			<input name="UAToggleSyberiaSkillsMenu" loc="syb_input_skillsmenu" />
+            <input name="UAToggleSyberiaHideItem" loc="syb_input_hideitem" />
+		</actions>
+		<sorting name="HAUFEN" loc="HAUFEN">
+    	    <input name="UAToggleSyberiaSkillsMenu"/>
+            <input name="UAToggleSyberiaHideItem"/>
+    	</sorting>
+	</inputs>
+	<!-- presets -->
+	<preset>
+        <input name="UAToggleSyberiaSkillsMenu">
+            <btn name="kEquals" />
+        </input>
+        <input name="UAToggleSyberiaHideItem">
+            <btn name="kT" />
+        </input>
+	</preset>
+</modded_inputs>
